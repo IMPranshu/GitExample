@@ -29,9 +29,9 @@ jsonstr = """ {
     ]
 }"""
 
-jsonobj = json.loads(jsonstr)
+# jsonobj = json.loads(jsonstr)
 
-print(jsonobj)
+# print(jsonobj)
 
-# jsonobj = json.load(open('sample_json.json'))
-# print(jsonobj['people'])
+jsonobj = json.load(open('sample_json.json'))
+print(jsonobj['people'])
